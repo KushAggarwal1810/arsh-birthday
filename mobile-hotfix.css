@@ -1,0 +1,12 @@
+@media (max-width:800px){
+  .cake-scene .wish{display:none!important}
+  .photo-browser{overflow:visible!important;isolation:isolate}
+  .photo-browser .photo-stage{overflow:hidden!important;z-index:1;border-radius:4px}
+  .photo-browser .big-arrow{position:relative!important;z-index:30!important;width:46px!important;height:126px!important;display:flex!important;flex-direction:column!important;justify-content:center!important;align-items:center!important;gap:8px!important;border:2px solid #fff!important;border-radius:25px!important;background:#4b1523!important;color:#fff!important;box-shadow:0 5px 14px #4b152355!important;pointer-events:auto!important;touch-action:manipulation!important;-webkit-tap-highlight-color:transparent}
+  .photo-browser .big-arrow:active{transform:scale(.92)!important;background:#a94d5f!important}
+  .photo-browser .big-arrow b{font-size:29px!important;line-height:1!important;pointer-events:none}
+  .photo-browser .big-arrow span{display:block!important;font-size:7px!important;font-weight:800!important;letter-spacing:.08em!important;pointer-events:none}
+  .memory-card{overflow:hidden!important}
+  .memory-card.prev,.memory-card.next{pointer-events:none!important}
+}
+@media (max-width:380px){.photo-browser{grid-template-columns:40px minmax(0,1fr) 40px!important}.photo-browser .big-arrow{width:38px!important}.photo-browser .big-arrow span{font-size:6px!important}}
