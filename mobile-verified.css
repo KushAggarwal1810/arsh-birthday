@@ -1,0 +1,11 @@
+@media (max-width:800px){
+  .back[hidden]{display:none!important}
+  .cover{padding-left:18px!important;padding-right:18px!important}
+  .cover-photo{height:49dvh!important;min-height:315px!important;margin-bottom:54px!important}
+  .cover-photo img{max-width:76%!important;max-height:92%!important}
+  .cover-copy{width:100%!important;max-width:100%!important;padding-inline:4px!important}
+  .cover h1{width:100%!important;max-width:100%!important;font-size:11.5vw!important;line-height:.92!important;letter-spacing:-.05em!important;overflow:visible!important;white-space:normal!important}
+  .cover .kicker{position:relative!important;z-index:3!important;margin-bottom:12px!important}
+  .cover .lead{max-width:100%!important;padding-right:3px!important}
+}
+@media (max-width:360px){.cover h1{font-size:11vw!important}.cover-photo{margin-bottom:46px!important}}
