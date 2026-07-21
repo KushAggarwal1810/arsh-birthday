@@ -1,0 +1,30 @@
+@media (max-width:800px){
+  .scene{height:calc(100dvh - 58px)!important;overflow-x:hidden!important;overflow-y:auto!important;-webkit-overflow-scrolling:touch!important;padding:18px 15px 90px!important}
+
+  .cover{display:flex!important;flex-direction:column!important;gap:0!important;align-items:stretch!important;justify-content:flex-start!important}
+  .cover-photo{flex:0 0 auto!important;width:100%!important;height:50dvh!important;min-height:330px!important;margin:0 0 28px!important}
+  .cover-photo:before{width:72%!important;height:94%!important}.cover-photo img{max-width:78%!important;max-height:94%!important}
+  .cover-copy{display:block!important;flex:0 0 auto!important;padding:4px 7px 30px!important}
+  .cover .kicker{display:block!important;position:static!important;margin:0 0 13px!important;font-size:10px!important}
+  .cover h1{font-size:15vw!important;line-height:.88!important;margin:0 0 18px!important}
+  .cover .lead{font-size:14px!important;line-height:1.55!important;margin:0 0 15px!important}.cover .cta{margin-top:12px!important}
+
+  .lock{display:block!important;padding-top:10vh!important}.lock-card{margin:0 auto!important}.lock h2{font-size:12vw!important}
+
+  .cake-scene{display:block!important;padding-bottom:95px!important}.cake-scene h2{font-size:11vw!important}.cake-copy>p:not(.kicker):not(.cake-status){display:block!important;font-size:13px!important;line-height:1.5!important}
+  .cake-actions{margin-bottom:15px!important}.table{position:relative!important;display:block!important;height:350px!important;padding:0!important;overflow:visible!important}
+  .cake{top:50%!important;transform:translate(-50%,-50%) scale(.72)!important}.cake-next{position:static!important;width:100%!important;margin:12px 0 0!important}
+
+  .reveal{display:flex!important;flex-direction:column!important;gap:24px!important}.real-photo{flex:0 0 54dvh!important;width:100%!important;height:54dvh!important}.reveal-copy{display:block!important;padding:0 5px 25px!important}.reveal h2{font-size:11vw!important}.reveal-copy>p:not(.kicker){font-size:13px!important;line-height:1.55!important;margin:9px 0!important}.reveal .quiet{font-size:18px!important}
+
+  .memories{display:block!important;padding-bottom:90px!important}.memory-head h2{font-size:10vw!important;margin:5px 0 12px!important}.memory-head>p:last-child{display:block!important;font-size:12px!important;line-height:1.4!important}
+  .photo-browser{height:56dvh!important;min-height:390px!important;margin:15px 0!important}.photo-browser .photo-stage{height:100%!important}.memory-controls{margin:8px 0 14px!important}.memory-next{position:static!important;width:100%!important;height:44px!important;margin:8px 0!important}
+
+  .legend{display:block!important;padding-bottom:90px!important}.legend h2{font-size:11vw!important;line-height:.92!important;margin:7px 0 20px!important}.qualities{display:grid!important;grid-template-columns:1fr!important;overflow:visible!important;height:auto!important;gap:12px!important}.qualities article{width:100%!important;height:auto!important;min-height:190px!important;padding:22px!important}.qualities h3{font-size:31px!important}.qualities p{font-size:13px!important;line-height:1.55!important}.legend>.cta{position:static!important;width:100%!important;margin:18px 0!important}
+
+  .letter-scene{display:block!important;padding:16px 12px 90px!important;overflow-y:auto!important}.letter-wrap{display:flex!important;flex-direction:column!important;height:auto!important;gap:28px!important}.letter{display:block!important;width:100%!important;height:auto!important;max-height:none!important;overflow:visible!important;padding:28px 20px!important}.letter h2{font-size:43px!important}.letter-body p{font-size:15px!important;line-height:1.7!important}.letter-side{display:block!important;width:100%!important;margin:0!important;padding-bottom:20px!important}.letter-side img{display:block!important;width:92%!important;max-height:none!important;margin:0 auto!important;object-fit:contain!important}.letter-side p{display:block!important;font-size:22px!important}.letter-side .cta{display:flex!important;width:100%!important}
+}
+
+@media (max-width:800px) and (max-height:620px){
+  .cover{display:flex!important}.cover-photo{height:68dvh!important;min-height:300px!important}.cover h1{font-size:13vw!important}.cake-scene{display:block!important}.cake{transform:translate(-50%,-50%) scale(.62)!important}.reveal{display:flex!important}.real-photo{height:70dvh!important;flex-basis:70dvh!important}
+}
